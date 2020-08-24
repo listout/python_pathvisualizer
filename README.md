@@ -12,5 +12,5 @@ Requirements:
 For now I have only achieved till `bfs`. I hope to add more algorithms along the way.
 
 * [X] `BFS`
-* [] `DFS`
-* [] `Dijkstra`
+* [ ] `DFS`
+* [ ] `Dijkstra`
