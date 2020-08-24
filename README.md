@@ -13,7 +13,7 @@ For now I have only achieved till `bfs`. I hope to add more algorithms along the
 
 ### BFS
 
-[example](gifs/bfs_gif.gif)
+![](gifs/bfs_gif.gif)
 
 * [X] `BFS`
 * [ ] `DFS`
