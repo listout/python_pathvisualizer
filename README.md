@@ -1,4 +1,4 @@
-# Path visualizing with Python and Pygame
+# Path finding with Python and Pygame
 
 This is a personal project
 
