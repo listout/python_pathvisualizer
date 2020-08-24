@@ -75,7 +75,7 @@ class Spot:
         self.color = PURPLE
 
     def draw(self, win):
-        """ Draw the grid """
+        """ Draw a box/node """
         pygame.draw.rect(
             win,
             self.color,
@@ -83,7 +83,7 @@ class Spot:
         )
 
     def update_neighbors(self, grid):
-        """ Add the blocks/nodes that are potential neighbours """
+        """ Add the blocks/nodes that are potential neighbours together """
 
         self.neighbors = []
         if self.row < self.total_rows - \
@@ -134,7 +134,7 @@ def draw_grid(win, rows, width):
 
 
 def draw(win, grid, rows, width):
-    """ Drawing canvas """
+    """ Updating the canvas after changing colors """
     win.fill(WHITE)
 
     for row in grid:
